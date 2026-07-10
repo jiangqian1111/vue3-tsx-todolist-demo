@@ -156,20 +156,20 @@ Open http://localhost:5173 and start exploring!
 
 ## 📖 Documentation
 
-Each chapter in `docs/` covers a specific migration from Vue Template to TSX:
+`docs/zh/` 目录下每一章涵盖一个从 Vue Template 到 TSX 的具体迁移知识点：
 
-| Chapter | Topic | Key Difference |
+| 章节 | 主题 | 核心差异 |
 |---------|-------|----------------|
-| [01](docs/01-template-to-tsx.md) | Template → TSX | `{{ msg }}` → `{msg.value}` |
-| [02](docs/02-component.md) | defineComponent | Options API → setup() + render |
-| [03](docs/03-reactive.md) | ref / reactive | Auto-unwrap → manual `.value` |
-| [04](docs/04-event.md) | Event Handling | `@click` → `onClick` |
-| [05](docs/05-component-communication.md) | Props & Emits | `$emit` → `emit()` |
-| [06](docs/06-slot.md) | Slots | `<slot>` → `{slots.default?.()}` |
-| [07](docs/07-provide-inject.md) | Provide / Inject | String key → Symbol key |
-| [08](docs/08-expose.md) | Expose | String ref → ref object |
-| [09](docs/09-life-cycle.md) | Lifecycle | Identical API |
-| [10](docs/10-advanced.md) | Advanced | Composables, Transition, Teleport |
+| [01](docs/zh/01-template-to-tsx.md) | Template → TSX | `{{ msg }}` → `{msg.value}` |
+| [02](docs/zh/02-component.md) | defineComponent | Options API → setup() + render |
+| [03](docs/zh/03-reactive.md) | ref / reactive | 自动解包 → 手动 `.value` |
+| [04](docs/zh/04-event.md) | 事件处理 | `@click` → `onClick` |
+| [05](docs/zh/05-component-communication.md) | Props & Emits | `$emit` → `emit()` |
+| [06](docs/zh/06-slot.md) | 插槽（Slots） | `<slot>` → `{slots.default?.()}` |
+| [07](docs/zh/07-provide-inject.md) | Provide / Inject | String key → Symbol key |
+| [08](docs/zh/08-expose.md) | Expose | String ref → ref 对象 |
+| [09](docs/zh/09-life-cycle.md) | 生命周期 | API 完全相同 |
+| [10](docs/zh/10-advanced.md) | 高级主题 | Composables, Transition, Teleport |
 
 ---
 
